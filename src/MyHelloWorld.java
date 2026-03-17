@@ -4,5 +4,6 @@ public class MyHelloWorld {
         int y = 3;
         String s = "abc" + 1 + "!!!";
         System.out.println(s);
+        System.out.println("x / y = " + x / y);
     }
 }
