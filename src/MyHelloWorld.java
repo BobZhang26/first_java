@@ -1,7 +1,10 @@
 public class MyHelloWorld {
     public static void main(String[] args) {
-        int a = 2 , b = 4 , c = 8;
-        double result = a + ((double) b) / c;
-        System.out.println(result);
+        int i;
+        for ( i = 0; i < 10; i+=3){
+            System.out.println(i + " ");
+        }
+        System.out.println("At last i is " + i);
+        System.out.println("The man's name is " + args[0]);
     }
 }
