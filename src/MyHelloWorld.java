@@ -1,9 +1,7 @@
 public class MyHelloWorld {
     public static void main(String[] args) {
-        int x = -5;
-        int y = 3;
-        String s = "abc" + 1 + "!!!";
-        System.out.println(s);
-        System.out.println("x / y = " + x / y);
+        int a = 2 , b = 4 , c = 8;
+        double result = a + ((double) b) / c;
+        System.out.println(result);
     }
 }
